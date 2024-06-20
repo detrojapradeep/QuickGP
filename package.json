@@ -1,0 +1,28 @@
+{
+  "name": "quickgp",
+  "version": "1.0.0",
+  "description": "Website to allow Hospitals to put up new available doctors appointments",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detrojapradeep/QuickGP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/detrojapradeep/QuickGP/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/detrojapradeep/QuickGP#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
