@@ -19,6 +19,8 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(_dirname, 'index.html'));
 });
 
+app.use(express.static(path.join(_dirname, 'public')));
+
 app.post('/appointmentForm', (req, res) => {
   console.log("Received POST request at /appointmentForm");
   res.send("Appointment form received");
