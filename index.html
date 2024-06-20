@@ -8,32 +8,31 @@
 </head>
 <body>
     <div id="appoitmentForm">
-        <h1><i>QuickGP</i></h1> <h2>Add a new Appointment</h2> <hr> <br>
-        <form action="" method="post">
-
+        <h1><i>QuickGP</i></h1> 
+        <h2>Add a new Appointment</h2> 
+        <hr> 
+        <br>
+        <form action="/appointmentForm" method="post">
             <label for="hospitalName">Select the Hospital </label>
-                <select name="hospitalName" id="hospitalName" >
-                    <option value="value" selected disabled hidden>Select an option</option>
-                    <option value="Thornbury Hospital" >Thornbury Hospital</option>
-                </select> <br>
-            
-                
+            <select name="hospitalName" id="hospitalName" >
+                <option value="" selected disabled hidden>Select an option</option>
+                <option value="Thornbury Hospital">Thornbury Hospital</option>
+            </select> 
+            <br>
             <label for="doctorName">Select the Doctor </label>
-                <select name="doctorName" id="doctorName" >
-                    <option value="value" selected disabled hidden>Select an option</option>
-                    <option value="Thornbury Hospital" >Dr. Shaun Murphy</option>
-                </select> <br> 
-                
+            <select name="doctorName" id="doctorName" >
+                <option value="" selected disabled hidden>Select an option</option>
+                <option value="Dr. Shaun Murphy">Dr. Shaun Murphy</option>
+            </select> 
+            <br> 
             <label for="date">Select the Available date</label>
-            <input type="date" name="date" id="date" required> <br>
-    
+            <input type="date" name="date" id="date" required> 
+            <br>
             <label for="timeSlot">Select the start of the Time-Slot </label>
-            <!-- <input type="time"  name="startTimeSlot" id="timeSlot"> <br> -->
             <label for="timeSlotDescription">(Each slot is of 30mins)</label>   
             <input id="startTimeSlot" type="time" name="startTimeSlot" min="09:00" max="18:00" required />    
             <button type="submit">Submit</button>
         </form>
     </div>
-    
 </body>
 </html>

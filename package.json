@@ -4,9 +4,9 @@
   "description": "Website to allow Hospitals to put up new available doctors appointments",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "type": "module",
   "homepage": "https://github.com/detrojapradeep/QuickGP#readme",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.19.2"
   },
   "devDependencies": {
