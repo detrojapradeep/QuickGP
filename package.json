@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "bot": "node bot.js"
+
   },
   "repository": {
     "type": "git",
@@ -20,8 +22,10 @@
   "type": "module",
   "homepage": "https://github.com/detrojapradeep/QuickGP#readme",
   "dependencies": {
+    "axios": "^1.7.2",
     "body-parser": "^1.20.2",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"

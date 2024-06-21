@@ -1,0 +1,6 @@
+Hospital,Doctor,Date,TimeSlot
+SanJoseStBonaventureHospital,Dr. Shaun Murphy,2024-06-26,17:44
+SanJoseStBonaventureHospital,Dr. Shaun Murphy,2024-06-27,17:49
+San Jose St Bonaventure Hospital,Dr. Shaun Murphy,2024-06-27,17:57
+San Jose St Bonaventure Hospital,Dr. Shaun Murphy,2024-06-24,16:58
+San Jose St Bonaventure Hospital,Dr. Shaun Murphy,2024-06-25,17:58
